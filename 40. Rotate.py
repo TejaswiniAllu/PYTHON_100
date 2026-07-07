@@ -1,0 +1,5 @@
+print("Enter list")
+a=list(map(int,input().split()))
+n=int(input("Enter position"))
+n=n%len(a)
+print("After rotation: ",a[n:]+a[:n])
