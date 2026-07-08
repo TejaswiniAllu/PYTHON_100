@@ -1,0 +1,6 @@
+print("Enter List: ")
+a=list(map(int,input().split()))
+print("Enter k value: ")
+k=int(input())
+a.sort(reverse=True)
+print("Kth largest number: ", a[k-1])
